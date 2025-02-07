@@ -1,0 +1,3 @@
+# Elixir Enum.each List Modification Issue
+
+This repository demonstrates an unexpected behavior when attempting to modify a list within an `Enum.each` loop in Elixir.  The provided code snippet aims to remove the element `3` from the list, but due to Elixir's immutable nature, the modification inside the `Enum.each` function doesn't affect the original list.  The solution illustrates a proper way to achieve the desired list modification.
